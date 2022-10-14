@@ -1,0 +1,26 @@
+
+
+h1 {
+    text-align: center;
+   margin-top: 80px;
+   
+}
+
+img{
+ 
+    width: 250px;
+    height: 300px;
+    border-radius: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+p{
+    text-align: center;
+}
+
+nav{
+    display:inline-flex;
+    margin-left: 300px;
+    
+}

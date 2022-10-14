@@ -1,0 +1,51 @@
+/*****************************************************
+LISTADO DE PROYECTOS REALIZADOS
+****************************************************/
+
+#bd{
+    margin:auto;
+}
+
+#traductor{
+    margin-left: 400px;
+}
+
+#App{
+    margin-left: 800px;
+}
+
+#Empresa{
+    margin-left: 1200px;
+}
+
+#Restaurante{
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+
+#Matlab{
+    margin-left: 400px;
+}
+
+#circuitos{
+    margin-left: auto;
+}
+
+/******************************************************/
+
+#flecha{
+    margin-left: 1180px;
+}
+
+#home{
+    margin-top: 0;
+    text-align: center;
+    
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 500px;
+}
