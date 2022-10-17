@@ -1,28 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"> <!--LENGUAJE ESPAÑOL-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
 
+
+<!--Link para tipos de fuente-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Comfortaa:wght@500&family=Fredoka+One&display=swap" rel="stylesheet">
+
+     <!--Vincular con el estilo de CSS-->
     <link rel="stylesheet" href="css/inicial.css">
     <title>Document</title>
 </head>
+
 <body>
    
+    <section>
     
-    <h1>¿Quién soy?</h1>
-    <img src="img/perfil.jpg">
-    <p>Hola yo soy Mayra, estudiante de Ingeniería en Sistemas Computacionales. A continuación te comparto algunos de mis trabajos</p>
+    <div class="animacion">
+        <p>Hola</p>            <!--Texto de bienvenida-->
+        <ul>
+            <li>mundo</li>     <!--Texto de bienvenida-->
+            <li>usuario</li>   <!--Texto de bienvenida-->
+            <li>a todos</li>   <!--Texto de bienvenida-->
+        </ul>
 
-    <nav>
-    <a href="proyectos.html"><img src="img/proyect.png"></a>
-    <a href="youtube.html"><img src="img/youtube.png"></a>
-    <a href="contacto.html"><img src="img/contact.png"></a>
+    </div>
+    
+    <div class="mifoto">
+        <figure>
+           <img src="img/perfil.jpg"> <!--Vínculo a fotografía-->
+           <div class="capa">
+            <h3>¿Quién soy?</h3>
+            <p>Hola yo soy Mayra, estudiante de Ingeniería en Sistemas Computacionales. Da clic en los botones de abajo para conocer más sobre mis trabajos.</p>
+           </div>
+        </figure>
+    </div>
+
+    <nav class="contenedor">      <!--Menú de navegación-->
+    <a href="proyectos.html" class="btn1">Proyectos </a>
+    <a href="youtube.html" class="btn2">Canal de Youtube </a>
+    <a href="contacto.html" class="btn3">Contacto</a>
     </nav>
 
+   </section>
+
     <footer>
-        <p>&copy;2022 Mayra</p>
+        <p>&copy;2022 Mayra</p>   <!--Pie de página-->
     </footer>
 
 </body>

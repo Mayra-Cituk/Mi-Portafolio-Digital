@@ -1,16 +1,86 @@
+/*CUERPO DE MI PAGINA*/
+
+
+
+body{
+    background-image:url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    
+}
+
+html{
+    box-sizing: border-box;
+}
+
 h1, h2{
     text-align: center;
 }
 
-#videos{
-    margin-left: 120px;
+
+/*BOTON home o pagina principal*/
+.boton1{
+    display: inline-block;
+    text-decoration:none;
+    border-radius: 0.5em;
+    margin:1em 0 0 1.5em;
+    background-color:#320b8691;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*BOTONES DE NAVEGACION*/
+.boton2{
+    display: inline-block;
+    text-decoration:none;
+    border-radius: 0.5em;
+    margin:6.2rem 0.5em 0 0;
+    background-color: #a900c7d0;
+    padding: 0.5em;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Aladin', cursive;
+    margin-left: 20rem;
+}
+
+.boton3{
+    display: inline-block;
+    text-decoration:none;
+    border-radius: 0.5em;
+    margin:6.2rem 0.5em 0 0;
+    background-color: #a900c7c0;
+    padding: 0.5em;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Aladin', cursive;
+    margin-left: 30rem;
 }
 
 
-#flecha{
-    margin-left: 1180px;
+/*Llamado a el id videos para darle formato al elemento que lo contenga*/
+#videos{                  
+    margin-left: 200px;
+    margin-top: 5rem;
 }
 
+/*EDICIÓN DE MARGENES EN CADA VIDEO*/
+
+.video1{
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+.video2{
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+.video3{
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+/*PIE DE PÁGINA*/
 footer{
     text-align: center;
 }

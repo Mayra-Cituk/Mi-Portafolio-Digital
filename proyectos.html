@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Comfortaa:wght@500&family=Francois+One&family=Fredoka+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/proyecto.css">
 
@@ -11,59 +16,79 @@
 </head>
 <body>
 
-    <a href="paginainicial.html" id="home">
-        <button>HOME</button>
-    </a>
+<a href="paginainicial.html"class="boton1">Página principal </a>
+
+    
 
     <h1>Proyectos</h1>
 
-<div id="bd">
-    <a href="">Proyecto 1</a>
-    <p>Base de datos Tienda</p>
-</div>
+<div class="contenedor">
+    <ul class="slider"> <!--clase que sirve para poder manipular todo lo que contiene el elemento ul-->
+        <li id="slide1">  <!--El id se usa para destacar un elemento si existen más, para poder hacer cambios en css solo en ese elemento-->
+            <div class="capa">
+            <p>Proyecto 1-Base de datos Tienda</p>
+            <img src="https://blog.saleslayer.com/hs-fs/hubfs/i2a517932n-63e0.png?width=772&name=i2a517932n-63e0.png" alt="">
+            </div>
 
-<div id="traductor">
-    <a href="">Proyecto 2</a>
-    <p>Traductor</p>
-</div>
+        </li>
 
-<div id="App">
-    <a href="">Proyecto 3</a>
-    <p>Short Trail</p>
-</div>
+        <li id="slide2">
+            <div class="capa">
+            <p>Proyecto 2-Traductor Inglés-Español</p>
+            <img src="https://play-lh.googleusercontent.com/xNmQrqDkzS0iGR0Hs2xjqaSfv1PfidA6FgWmW7PdeGM-HQXfl6VceApP_uLRiSmXPhg=w240-h480-rw" alt="">
+            </div>
+        </li>
 
-<div id="Empresa">
-    <a href="">Proyecto 4</a>
-    <p>Empresa Etalí</p>
-</div>
+        <li id="slide3">
+            <div class="capa">
+            <p>Proyecto 3-Short Trail (App para trazar rutas)</p>
+            <img src="https://www.beetrack.com/hs-fs/hubfs/calcular%20ruta%20google%20maps.jpg?width=720&name=calcular%20ruta%20google%20maps.jpg" alt="">
+             </div>
+        </li>
 
-<div id="Restaurante">
-    <a href="">Proyecto 5</a>
-    <p>Sistema de restaurante ChacKay-Grill</p>
-</div>
+        <li id="slide4">
+            <div class="capa">
+            <p>Proyecto 4-Empresa Etalí</p>
+            <img src="https://newsfragancias.com/wp-content/uploads/2015/01/SABON-MADRID-jabones-mostrador.jpg" alt="">
+            </div>
+        </li>
 
-<div id="Matlab">
-    <a href="">Proyecto 6</a>
-    <p>Programa Matlab para calcular métodos</p>
-</div>
+        <li id="slide5">
+            <div class="capa">
+            <p>Proyecto 5-Sistema de Base de datos de restaurante</p>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/a4/6c/82/dining-and-bar-area.jpg" alt="">
+            </div>
 
-<div id="circuitos">
-    <a href="">Proyecto 7</a>
-    <p>Circuitos eléctricos</p>
+        </li>
+        
+         
+        <li id="slide6">
+            <div class="capa">
+            <p>Proyecto 6-Programa hecho en Matlab para Métodos numéricos</p>
+            <img src="https://blog.facialix.com/wp-content/uploads/2022/07/matlab-facialix.jpg" alt="">
+            </div>
+
+        </li>
+
+        <li id="slide7">
+            <div class="capa">
+            <p>Proyecto 7-Programa hecho en Matlab para Ecuaciones diferenciales</p>
+            <img src="https://cdn.tgdd.vn//GameApp/-1//thumbma-800x450-1.jpg" alt="">
+            </div>
+
+        </li>
+
+
+
+    </ul>
+
 </div>
    
-<a href="paginainicial.html">
-    <button disabled="disabled"><img src="img/izquierda.png" width="50" height="50"></button>
-</a>
+   
+<a href="paginainicial.html" class="boton2">Atrás</a>  <!--BOTON -->
 
-<a href="youtube.html" id="flecha">
-    <button disabled="disabled"><img src="img/derecha.png" width="50" height="50"></button>
-</a>
+<a href="youtube.html" id="flecha" class="boton3">Ir a canal de youtube</a> <!--BOTON -->
 
 
-    <footer>
-        <p>&copy;2022 Mayra</p>
-    </footer>
-    
 </body>
 </html>

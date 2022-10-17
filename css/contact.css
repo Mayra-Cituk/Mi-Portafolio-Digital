@@ -1,36 +1,87 @@
-h1{
-    text-align: center;
+html{
+    box-sizing: border-box;
 }
 
+
+/*CUERPO DE MI PAGINA*/
+
+
+
+body{
+    background-image:url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
+    
+}
+
+/*BOTON home o pagina principal*/
+.boton1{
+    display: inline-block;
+    text-decoration:none;
+    border-radius: 0.5em;
+    margin:1em 0 0 1.5em;
+    background-color:#320b8691;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*TEXTO: MIS REDES SOCIALES*/
+h1{
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+}
+
+/*MENÚ DE LOGOS DE REDES SOCIALES*/
 nav{
     margin-top: 100px;
     display: inline-flex;
 }
 
+/*IMAGENES DE LOS LOGOS*/
 #img1{
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 #img2{
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 #img3{
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 #img4{
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
+    margin-left: 50px;
+    text-align:end;
     text-decoration: none;
+    margin-top: 3rem;
+    font-family: 'Fredoka One', cursive;
+    color: white;
 }
 
+/*TEXTO CON DESCRIPCION BREVE*/
 p{
     text-align: center;
     margin-top: 100 px;
+    font-family: 'Francois One', sans-serif;
 }
 
+/*BOTONES DE NAVEGACION*/
+.boton2{
+    text-decoration:none;
+    border-radius: 0.5em;
+    background-color: #a900c7d0;
+    padding: 0.5em;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Aladin', cursive;
+    margin-left: 5rem;
+}
+
+/*PIE DE PÁGINA*/
 footer{
     text-align: center;
     margin-top: 200px;
