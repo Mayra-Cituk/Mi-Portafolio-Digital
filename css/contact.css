@@ -1,6 +1,10 @@
+/*MODELO DE CAJA*/
 html{
     box-sizing: border-box;
 }
+*,*::after,*::before{
+    box-sizing: inherit;
+}   
 
 
 /*CUERPO DE MI PAGINA*/
@@ -54,10 +58,9 @@ nav{
 }
 
 #img4{
-    margin-left: 50px;
-    text-align:end;
+    margin-left: 180px;
     text-decoration: none;
-    margin-top: 3rem;
+   /* margin-top: 3rem;*/
     font-family: 'Fredoka One', cursive;
     color: white;
 }
@@ -75,10 +78,15 @@ p{
     border-radius: 0.5em;
     background-color: #a900c7d0;
     padding: 0.5em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-family: 'Aladin', cursive;
     margin-left: 5rem;
+    display:flexbox;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 /*PIE DE PÁGINA*/

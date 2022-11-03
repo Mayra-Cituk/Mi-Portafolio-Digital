@@ -1,6 +1,14 @@
+
+/*MODELO DE CAJA*/
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}   
+
+/***************************************/
 /*CUERPO DE MI PAGINA*/
-
-
 
 body{
     background-image:url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
@@ -8,10 +16,6 @@ body{
     background-size: 100% 100%;
 
     
-}
-
-html{
-    box-sizing: border-box;
 }
 
 h1, h2{
@@ -40,23 +44,32 @@ h1, h2{
     margin:6.2rem 0.5em 0 0;
     background-color: #a900c7d0;
     padding: 0.5em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-family: 'Aladin', cursive;
     margin-left: 20rem;
+    display:flexbox;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .boton3{
-    display: inline-block;
     text-decoration:none;
     border-radius: 0.5em;
     margin:6.2rem 0.5em 0 0;
     background-color: #a900c7c0;
     padding: 0.5em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-family: 'Aladin', cursive;
     margin-left: 30rem;
+    display:flexbox;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 

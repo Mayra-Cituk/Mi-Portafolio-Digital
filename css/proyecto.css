@@ -1,10 +1,19 @@
 /*****************************************************
 LISTADO DE PROYECTOS REALIZADOS
 ****************************************************/
+
+
+/*MODELO DE CAJA*/
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}   
+
+/***************************************/
+
 /*CUERPO DE MI PAGINA*/
-
-
-
 body{
     background-image:url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
     background-repeat: no-repeat;
@@ -128,27 +137,35 @@ h1{
 
 /*BOTONES DE NAVEGACION*/
 .boton2{
-    display: inline-block;
     text-decoration:none;
     border-radius: 0.5em;
     margin:0 0.5em 0 0;
     background-color: #aa00c7;
     padding: 0.5em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-family: 'Aladin', cursive;
     margin-left: 50rem;
+    display:flexbox;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .boton3{
-    display: inline-block;
     text-decoration:none;
     border-radius: 0.5em;
     margin:0 0.5em 0 0;
     background-color: #aa00c7;
     padding: 0.5em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-family: 'Aladin', cursive;
     margin-left: 10rem;
+    display:flexbox;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }

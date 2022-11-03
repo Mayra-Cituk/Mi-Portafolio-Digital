@@ -12,16 +12,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Comfortaa:wght@500&family=Fredoka+One&display=swap" rel="stylesheet">
 
+<!--Link para bootstrap y javascript-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
      <!--Vincular con el estilo de CSS-->
     <link rel="stylesheet" href="css/inicial.css">
     <title>Document</title>
 </head>
 
 <body>
+
+<div class="container">
    
     <section>
     
-    <div class="animacion">
+    <div class="animacion" class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
         <p>Hola</p>            <!--Texto de bienvenida-->
         <ul>
             <li>mundo</li>     <!--Texto de bienvenida-->
@@ -31,7 +39,7 @@
 
     </div>
     
-    <div class="mifoto">
+    <div class="mifoto" class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
         <figure>
            <img src="img/perfil.jpg"> <!--Vínculo a fotografía-->
            <div class="capa">
@@ -42,9 +50,11 @@
     </div>
 
     <nav class="contenedor">      <!--Menú de navegación-->
-    <a href="proyectos.html" class="btn1">Proyectos </a>
-    <a href="youtube.html" class="btn2">Canal de Youtube </a>
-    <a href="contacto.html" class="btn3">Contacto</a>
+    <button class="btn btn-primary"><a href="proyectos.html" class="btn1">Proyectos </a></button>
+    <button class="btn btn-primary"><a href="youtube.html" class="btn2">Canal de Youtube </a></button>
+        <button class="btn btn-primary"><a href="contacto.html" class="btn3">Contacto</a></button>
+
+    <!--<button class="btn btn-primary">Boton</button>          JS-->
     </nav>
 
    </section>
@@ -52,6 +62,7 @@
     <footer>
         <p>&copy;2022 Mayra</p>   <!--Pie de página-->
     </footer>
+</div>
 
 </body>
 </html>
